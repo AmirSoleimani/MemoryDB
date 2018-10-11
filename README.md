@@ -22,7 +22,6 @@ Just use go get.
 
 ### Sample
 
-Just use go get.
 ```go
     func main() {
     	// sample
