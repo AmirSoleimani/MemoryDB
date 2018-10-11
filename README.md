@@ -23,7 +23,7 @@ Just use go get.
 ### Sample
 
 ```go
-    func main() {
+func main() {
     	// sample
     	memDB := db.NewMemDB()
     	memDB.Put([]byte("blabla"), []byte("gogogo"))
@@ -38,7 +38,7 @@ Just use go get.
     	batch.Write()
     
     	fmt.Println(memDB.Keys())
-	}
+}
 ```
 
 
